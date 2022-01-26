@@ -52,7 +52,7 @@ const CustomersLogoStrip = styled.div`
 function sendEmail(e) {
   e.preventDefault();
 
-  emailjs.sendForm('service_siolzuj', 'template_ny3an7k', e.target, 'user_EvvJTh5bb1VQKSEsvVn5W')
+  emailjs.sendForm('service_ec7dkfm', 'template_gmto3mb', e.target, 'user_2zKpz1MJmZPivnSWIPy77')
     .then((result) => {
       alert("Thank You for Signing Up! We will be in touch to get you onto the app soon!")
         console.log(result.text);
@@ -99,7 +99,7 @@ export default ({ roundedHeaderButton }) => {
                <form className="contact-form" onSubmit={sendEmail}>
             <input type="email" name="user_email" placeholder = "Email"/>
       
-            <input type="submit" name = "submit" value="Sign Up!" style = {{backgroundColor: "#007bff", textAlign:"left",color:"white"}}/>
+            <input type="submit" name = "submit" value="Fuck Off!" style = {{backgroundColor: "#007bff", textAlign:"left",color:"white"}}/>
             </form>
 
              
